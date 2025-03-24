@@ -46,8 +46,8 @@ import {
 } from '@opsimathically/emptytools';
 
 (async function () {
-  assert.strictEqual(isEmpty(undefined), true);
   // true
+  isEmpty(undefined);
   isEmpty(null);
   isEmpty(new Date(''));
   isEmpty(new Set());
