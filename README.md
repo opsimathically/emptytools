@@ -43,7 +43,7 @@ import {
   isNotEmpty,
   valuesAreEmpty,
   valuesAreNotEmpty
-} from '@src/emptytools';
+} from '@opsimathically/emptytools';
 
 (async function () {
   assert.strictEqual(isEmpty(undefined), true);
